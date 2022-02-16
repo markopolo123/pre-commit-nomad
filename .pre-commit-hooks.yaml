@@ -1,7 +1,7 @@
-- id: nomad_validate
+- id: nomad-validate
   name: Nomad validate
   description: Validates all Nomad configuration files.
   require_serial: true
-  entry: hooks/nomad_validate.sh
-  language: script
+  entry: nomad validate
+  language: system
   files: (\.nomad|\.job)$
