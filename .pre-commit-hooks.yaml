@@ -1,0 +1,7 @@
+- id: nomad-validate
+  name: Nomad validate
+  description: Validates all Nomad configuration files.
+  require_serial: true
+  entry: nomad validate
+  language: system
+  files: (\.nomad|\.job)$
