@@ -1,0 +1,32 @@
+[tool.black]
+line-length = 128
+
+[tool.poetry]
+name = "pre-commit-nomad"
+version = "0.0.0"
+description = "pre-commit hooks"
+authors = ["mcsharpley1@gmail.com"]
+license = "MIT"
+packages = [
+    { include = "hooks/nomad_validate.py" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+commitizen = "^2.21.0"
+black = "^22.1.0"
+pre-commit = "^2.17.0"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.0.0"
+tag_format = "v$version"
+update_changelog_on_bump = true
+version_files = [
+    "pyproject.toml:version",
+    "VERSION"
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

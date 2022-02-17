@@ -2,6 +2,6 @@
   name: Nomad validate
   description: Validates all Nomad configuration files.
   require_serial: true
-  entry: nomad validate
-  language: system
+  entry: hooks/nomad_validate.py
+  language: python
   files: (\.nomad|\.job)$
