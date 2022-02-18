@@ -3,7 +3,7 @@ line-length = 128
 
 [tool.poetry]
 name = "pre-commit-nomad"
-version = "1.0.2"
+version = "1.0.3"
 description = "pre-commit hooks"
 authors = ["Mark Sharpley <mcsharpley1@gmail.com>"]
 license = "MIT"
@@ -23,7 +23,7 @@ pre-commit-nomad = 'hooks.nomad_validate:main'
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "1.0.2"
+version = "1.0.3"
 tag_format = "v$version"
 update_changelog_on_bump = true
 version_files = [

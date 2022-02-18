@@ -1,3 +1,9 @@
+## v1.0.3 (2022-02-18)
+
+### Refactor
+
+- **pyproject.toml**: add script
+
 ## v1.0.2 (2022-02-18)
 
 ### Refactor
