@@ -7,9 +7,6 @@ version = "1.0.0"
 description = "pre-commit hooks"
 authors = ["Mark Sharpley <mcsharpley1@gmail.com>"]
 license = "MIT"
-packages = [
-    { include = "hooks/nomad_validate.py" },
-]
 
 [tool.poetry.dependencies]
 python = "^3.10"
