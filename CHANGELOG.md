@@ -1,3 +1,9 @@
+## v1.0.2 (2022-02-18)
+
+### Refactor
+
+- **pyproject.toml**: add package info
+
 ## v1.0.1 (2022-02-18)
 
 ### Refactor
