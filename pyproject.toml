@@ -7,10 +7,6 @@ version = "1.0.3"
 description = "pre-commit hooks"
 authors = ["Mark Sharpley <mcsharpley1@gmail.com>"]
 license = "MIT"
-packages = [
-    { include = "pre-commit-nomad" },
-    { include = "pre-commit-nomad/**/*.py" },
-]
 
 [tool.poetry.dependencies]
 python = "^3.10"
