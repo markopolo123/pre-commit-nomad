@@ -15,8 +15,8 @@ def main(argv: Sequence[str] | None = None) -> int:
         try:
             base = os.path.abspath(filename)
             dir_path = os.path.dirname(base)
-            print(base)
-            subprocess.check_output(["nomad", "validate", f"{filename}"], cwd=dir_path)
+            file = os.path.split(filename)
+            subprocess.check_output(["nomad", "validate", f"{file[1]}"], cwd=dir_path)
         except subprocess.CalledProcessError as e:
             print(f'{filename}: {e.output}')
             retval = 1
