@@ -1,3 +1,13 @@
+## v1.0.4 (2022-02-22)
+
+### Feat
+
+- **package**: add package structure
+
+### Refactor
+
+- **pyproject.toml**: remove packages
+
 ## v1.0.3 (2022-02-18)
 
 ### Refactor
