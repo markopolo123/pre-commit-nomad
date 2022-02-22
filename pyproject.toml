@@ -3,7 +3,7 @@ line-length = 128
 
 [tool.poetry]
 name = "hooks"
-version = "1.0.4"
+version = "1.0.5"
 description = "Use Pre-commit to validate nomad jobs"
 authors = ["Mark Sharpley <mcsharpley1@gmail.com>"]
 license = "MIT"
@@ -19,7 +19,7 @@ nomad-validate = 'hooks.nomad_validate:main'
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "1.0.4"
+version = "1.0.5"
 tag_format = "v$version"
 update_changelog_on_bump = true
 version_files = [

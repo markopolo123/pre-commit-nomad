@@ -1,3 +1,9 @@
+## v1.0.5 (2022-02-22)
+
+### Fix
+
+- **pre-commit-config.yaml**: change hook name
+
 ## v1.0.4 (2022-02-22)
 
 ### Feat
