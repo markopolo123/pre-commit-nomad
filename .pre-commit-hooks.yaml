@@ -1,5 +1,5 @@
 - id: nomad-validate
-  name: Nomad validate
+  name: Validate Nomad Jobs
   description: Validates all Nomad configuration files.
   require_serial: true
   entry: nomad-validate
